@@ -14,9 +14,7 @@ import org.springframework.context.annotation.ComponentScan;
  *
  */
 @SpringBootApplication
-@ComponentScan({
-	"com.test.api"
-})
+@ComponentScan("com.test")
 public class TestMain {
 
 	public static void main(String[] args) {
